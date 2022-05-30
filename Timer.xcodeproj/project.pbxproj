@@ -13,6 +13,7 @@
 		D02D9FFA284082C60052B74F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02D9FF8284082C60052B74F /* Main.storyboard */; };
 		D02D9FFC284082C60052B74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02D9FFB284082C60052B74F /* Assets.xcassets */; };
 		D02D9FFF284082C60052B74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02D9FFD284082C60052B74F /* LaunchScreen.storyboard */; };
+		D02DA00B2840AECF0052B74F /* MakeTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02DA00A2840AECF0052B74F /* MakeTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D02D9FFB284082C60052B74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02D9FFE284082C60052B74F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D02DA000284082C60052B74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D02DA00A2840AECF0052B74F /* MakeTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D02D9FF2284082C60052B74F /* AppDelegate.swift */,
 				D02D9FF4284082C60052B74F /* SceneDelegate.swift */,
 				D02D9FF6284082C60052B74F /* ViewController.swift */,
+				D02DA00A2840AECF0052B74F /* MakeTaskViewController.swift */,
 				D02D9FF8284082C60052B74F /* Main.storyboard */,
 				D02D9FFB284082C60052B74F /* Assets.xcassets */,
 				D02D9FFD284082C60052B74F /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				D02D9FF7284082C60052B74F /* ViewController.swift in Sources */,
 				D02D9FF3284082C60052B74F /* AppDelegate.swift in Sources */,
 				D02D9FF5284082C60052B74F /* SceneDelegate.swift in Sources */,
+				D02DA00B2840AECF0052B74F /* MakeTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +328,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
